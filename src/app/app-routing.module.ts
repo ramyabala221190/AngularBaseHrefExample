@@ -21,11 +21,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes,{useHash:false})],
-  /*
-If false, and I try to hit http://localhost:8080/test, /test will go to the server
-and fail with 404.
-If true, http://localhost:8080/#test will be the url and /test wil not go to the server
-  */
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

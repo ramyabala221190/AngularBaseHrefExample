@@ -5,8 +5,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration=production --watch",
-    "copy": "cp ./dist/location-strategy ../../node/locationStrategy",
-    "finalBuild":"npm run delete && npm run copy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
